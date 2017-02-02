@@ -10,7 +10,7 @@ Similarly to the previous version, this one uses a separate booster generating f
 
 The interface part of the code (start_v0.1B.php) is largely unchanged, except for creation of player objects assigned to session variables for use in the course of the draft.
 
-Classes used in the program are defined in a separate file (classes.php). There is also a separate function file (function.php) as during the development I anticipated that there would be a number of functions with the current picking mechanism (pick.php) constituting three separate functions. However, I eventually decided to lump everything together into one giant function, which is probably a questionale choice. So functions.php is now merely a vestigial part of the code.
+Classes used in the program are defined in a separate file (classes.php).
 
 The drafting mechanism has undergone the most extensive changes and is now split into two parts. One of them keeps track of draft progress parameters such as current round, player, booster pass direction, etc. The booster carrousel has become a lot more transparent and concise here.
 
