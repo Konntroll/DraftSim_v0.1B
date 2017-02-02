@@ -21,3 +21,5 @@ Other than that, this function also takes care of color considerations pushing s
 This approach has made it possible to handle drafting more or less as a real player would, giving preference to specific cards and adjusting values not only of the cards to be picked but also of those that have already made it into the player’s card pool. With further work the OO aspect of the code could make it possible to introduce strategies and/or deck archetypes to further refine simulated drafting.
 
 The trade off here is, of course, poor scalability. Each new set, whether in the same block or not, will require rewriting of large sections of the pick function with careful analysis of the new set’s peculiarities. Nevertheless, given that sets are published relatively infrequently I believe it would be quite possible to implement this approach in a dedicated production environment.
+
+To run the app, deploy all of the repo files into a folder accessible to your development server (don't forget to unpack the image archives) and run start_v0.1A.php from your browser.
