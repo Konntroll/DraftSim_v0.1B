@@ -1,5 +1,7 @@
 # DraftSim_v0.1B
 
+Magic the Gathering draft simulator in PHP using OOP, JavaScript, and MySQL
+
 This is the second iteration of my Magic draft simulator (version 0.1B). It is similar to version 0.1A in some respects but differs a good deal in many others. 
 
 Designed to work with the Kaladesh set of Magic cards this program is ”hardwired" for the set and would be impossible to use properly with a different set without major rewrites. This is due to substantial changes in the pick mechanism that were implemented to refine the card picking process and make it a bit more realistic and consistent. The program makes wide use of objects to facilitate evaluations and tracking of player and card pick data.
